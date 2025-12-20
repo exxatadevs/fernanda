@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-custom-dark {
+    background-color: #09182b;
+  }
+  .bg-diamond-red {
+    background: linear-gradient(135deg, #AEAEB7 0%, #C5C5CC 100%);
+  }
+  .border-diamond-red {
+    border-color: #AEAEB7;
+  }
+}
