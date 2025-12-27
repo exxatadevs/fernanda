@@ -210,10 +210,10 @@ export function AssistenciaTecnica({ onMenuClick }: AssistenciaTecnicaProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div>
               <div className="flex items-center gap-2 mb-6">
-                <span className="text-white tracking-widest uppercase text-sm">SOPHIA</span>
+                <span className="text-white tracking-widest uppercase text-sm">FERNANDA</span>
               </div>
               <p className="text-gray-500 text-sm">
-                © 2025 SOPHIA. Inteligência que vence.
+                © 2025 FERNANDA. Inteligência que vence.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

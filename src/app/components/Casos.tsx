@@ -116,24 +116,51 @@ export function Casos({ onMenuClick }: CasosProps) {
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <CaseCard
-                image="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
-                title="Obra Pública - São Paulo"
-                description="Suporte técnico em rescisão contratual de obra esportiva."
-                category="Suporte a Litígios"
+                image="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80"
+                title="Parque Solar - RN"
+                description="Contrução de Parque Solar."
+                category="Acordo e Verdade"
+                url="https://clickpetroleoegas.com.br/anemus-wind-potencializando-a-revolucao-da-energia-limpa-no-mercado-livre-brasileiro/"
               />
               
               <CaseCard
                 image="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
-                title="Obra Rodoviária - Interior SP"
-                description="Perícia técnica em litígio sobre construção de infraestrutura viária."
-                category="Suporte a Litígios"
+                title="Rodoanel de SP"
+                description="Construção de Rodoanel de SP."
+                category="Acordo e Verdade"
+                url="https://www.mobilize.org.br/noticias/10669/rodoanel-de-sp-ficara-pronto-em-2018-ao-custo-de-r-26-bilhoes.html"
               />
               
               <CaseCard
                 image="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
-                title="Obra Viária - São Paulo"
-                description="Assessoria em arbitragem de grande obra rodoviária."
-                category="Suporte a Litígios"
+                title="Rodoanel Norte - SP"
+                description="Construção do Rodoanel Norte de SP."
+                category="Acordo e Verdade"
+                url="https://www.terra.com.br/noticias/brasil/cidades/como-estao-as-obras-do-rodoanel-norte-apos-6-anos-de-paralisacao,d3266a86a2457c631fe117af28f6bf8b44neavcm.html"
+              />
+              
+              <CaseCard
+                image="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80"
+                title="Aeroporto de Florianópolis - SC"
+                description="Protesto de trabalhadores bloqueia acesso ao canteiro de obras no aeroporto."
+                category="Acordo e Verdade"
+                url="https://g1.globo.com/sc/santa-catarina/noticia/2019/03/19/protesto-de-trabalhadores-bloqueia-acesso-ao-canteiro-de-obras-no-aeroporto-de-florianopolis.ghtml"
+              />
+              
+              <CaseCard
+                image="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+                title="Praça de Pedágio - São Paulo"
+                description="Acordo durante a construção de Praça de Pedágio em São Paulo."
+                category="Acordo e Verdade"
+                url="https://dcomercio.com.br/publicacao/s/com-apoio-da-facesp-pequenos-negocios-sao-ressarcidos-de-calote-milionario"
+              />
+              
+              <CaseCard
+                image="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80"
+                title="Parque Solar - Ceará"
+                description="Construtora de parque solar acusa multinacional por demissão em massa de funcionários."
+                category="Acordo e Verdade"
+                url="https://diariodonordeste.verdesmares.com.br/negocios/construtora-de-parque-solar-acusa-multinacional-por-demissao-em-massa-de-funcionarios-no-ceara-1.3543752"
               />
             </div>
           </div>
@@ -238,12 +265,12 @@ export function Casos({ onMenuClick }: CasosProps) {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
               <div className="flex flex-col">
-                <span className="text-white tracking-widest uppercase text-sm leading-tight">SOPHIA</span>
+                <span className="text-white tracking-widest uppercase text-sm leading-tight">FERNANDA</span>
                 <span className="text-white/60 text-[9px] tracking-wider">HUMAN INTELLIGENCE, APPLIED.</span>
               </div>
             </div>
             <p className="text-gray-500 text-sm">
-              © 2025 SOPHIA. Todos os direitos reservados.
+              © 2025 FERNANDA. Todos os direitos reservados.
             </p>
           </div>
         </footer>
@@ -257,9 +284,10 @@ interface CaseCardProps {
   title: string;
   description: string;
   category: string;
+  url?: string;
 }
 
-function CaseCard({ image, title, description, category }: CaseCardProps) {
+function CaseCard({ image, title, description, category, url }: CaseCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -286,10 +314,22 @@ function CaseCard({ image, title, description, category }: CaseCardProps) {
         <h3 className="text-2xl mb-3 uppercase">{title}</h3>
         <p className="text-gray-400 leading-relaxed mb-6">{description}</p>
         
-        <button className="flex items-center gap-2 text-white/60 group-hover:text-white transition-colors uppercase text-sm tracking-wider">
-          <span>Acessar a Matéria</span>
-          <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-2" />
-        </button>
+        {url ? (
+          <a 
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-white/60 group-hover:text-white transition-colors uppercase text-sm tracking-wider"
+          >
+            <span>Acessar a Matéria</span>
+            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-2" />
+          </a>
+        ) : (
+          <button className="flex items-center gap-2 text-white/60 group-hover:text-white transition-colors uppercase text-sm tracking-wider">
+            <span>Acessar a Matéria</span>
+            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-2" />
+          </button>
+        )}
       </div>
     </motion.div>
   );

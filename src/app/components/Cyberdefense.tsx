@@ -544,12 +544,12 @@ export function Cyberdefense({ onMenuClick }: CyberdefenseProps) {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
             <div className="flex flex-col">
-              <span className="text-white tracking-widest uppercase text-sm leading-tight">SOPHIA</span>
+              <span className="text-white tracking-widest uppercase text-sm leading-tight">FERNANDA</span>
               <span className="text-white/60 text-[9px] tracking-wider">HUMAN INTELLIGENCE, APPLIED.</span>
             </div>
           </div>
           <p className="text-gray-500 text-sm">
-            © 2025 SOPHIA. Todos os direitos reservados.
+            © 2025 FERNANDA. Todos os direitos reservados.
           </p>
         </div>
       </footer>

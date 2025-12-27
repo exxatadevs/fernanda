@@ -17,7 +17,7 @@ export function Header({ onMenuClick, onContactClick }: HeaderProps) {
         className="flex items-center gap-2 hover:opacity-80 transition-opacity cursor-pointer"
       >
         <div className="flex flex-col">
-          <span className="text-white tracking-widest uppercase leading-tight">SOPHIA</span>
+          <span className="text-white tracking-widest uppercase leading-tight">FERNANDA</span>
           <span className="text-white/60 text-[10px] tracking-wider">HUMAN INTELLIGENCE, APPLIED.</span>
         </div>
       </a>

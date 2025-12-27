@@ -28,7 +28,7 @@ export function Metodologia({ onMenuClick }: MetodologiaProps) {
               O método mais eficaz para obter evidências concretas que seriam impossíveis de alcançar por outros meios.
             </p>
             <p className="text-gray-500 text-lg max-w-2xl">
-              Quando a inteligência humana é a única opção, você pode confiar na SOPHIA para revelar a verdade.
+              Quando a inteligência humana é a única opção, você pode confiar na FERNANDA para revelar a verdade.
             </p>
           </motion.div>
         </div>
@@ -260,7 +260,7 @@ export function Metodologia({ onMenuClick }: MetodologiaProps) {
             Nada é Impossível
           </h2>
           <p className="text-gray-300 text-xl mb-10 leading-relaxed">
-            Quando a inteligência humana é a única opção, você pode confiar na SOPHIA para descobrir a verdade 
+            Quando a inteligência humana é a única opção, você pode confiar na FERNANDA para descobrir a verdade 
             e proteger seus interesses estratégicos.
           </p>
           <button 
@@ -277,12 +277,12 @@ export function Metodologia({ onMenuClick }: MetodologiaProps) {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
             <div className="flex flex-col">
-              <span className="text-white tracking-widest uppercase text-sm leading-tight">SOPHIA</span>
+              <span className="text-white tracking-widest uppercase text-sm leading-tight">FERNANDA</span>
               <span className="text-white/60 text-[9px] tracking-wider">HUMAN INTELLIGENCE, APPLIED.</span>
             </div>
           </div>
           <p className="text-gray-500 text-sm">
-            © 2025 SOPHIA. Todos os direitos reservados.
+            © 2025 FERNANDA. Todos os direitos reservados.
           </p>
         </div>
       </footer>

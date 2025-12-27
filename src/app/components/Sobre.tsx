@@ -105,7 +105,7 @@ export function Sobre({ onMenuClick }: SobreProps) {
               className="max-w-5xl"
             >
               <h1 className="text-5xl md:text-6xl lg:text-8xl uppercase mb-8 leading-tight">
-                Sobre a SOPHIA
+                Sobre a FERNANDA
               </h1>
               <p className="text-gray-400 text-xl mb-8 max-w-3xl leading-relaxed uppercase tracking-wider">
                 Solutions Of Pragmatic Human Intelligence for Analysis
@@ -354,7 +354,7 @@ export function Sobre({ onMenuClick }: SobreProps) {
                 Uma Solução EXXATA
               </h2>
               <p className="text-gray-300 text-xl leading-relaxed max-w-3xl mx-auto mb-6">
-                A SOPHIA é uma solução da{' '}
+                A FERNANDA é uma solução da{' '}
                 <a 
                   href="https://exxata.com.br/" 
                   target="_blank" 
@@ -441,12 +441,12 @@ export function Sobre({ onMenuClick }: SobreProps) {
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="flex items-center gap-2">
               <div className="flex flex-col">
-                <span className="text-white tracking-widest uppercase text-sm leading-tight">SOPHIA</span>
+                <span className="text-white tracking-widest uppercase text-sm leading-tight">FERNANDA</span>
                 <span className="text-white/60 text-[9px] tracking-wider">HUMAN INTELLIGENCE, APPLIED.</span>
               </div>
             </div>
             <p className="text-gray-500 text-sm">
-              © 2025 SOPHIA. Todos os direitos reservados.
+              © 2025 FERNANDA. Todos os direitos reservados.
             </p>
           </div>
         </footer>

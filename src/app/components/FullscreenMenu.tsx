@@ -35,7 +35,7 @@ export function FullscreenMenu({ isOpen, onClose, onNavigate }: FullscreenMenuPr
           <div className="px-8 py-6 flex items-center justify-between border-b border-white/10">
             <div className="flex items-center gap-2">
               <div className="flex flex-col">
-                <span className="text-white tracking-widest uppercase leading-tight">SOPHIA</span>
+                <span className="text-white tracking-widest uppercase leading-tight">FERNANDA</span>
                 <span className="text-white/60 text-[10px] tracking-wider">HUMAN INTELLIGENCE, APPLIED.</span>
               </div>
             </div>
