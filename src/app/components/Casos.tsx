@@ -116,30 +116,6 @@ export function Casos({ onMenuClick }: CasosProps) {
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               <CaseCard
-                image="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=800&q=80"
-                title="Parque Solar - RN"
-                description="Contrução de Parque Solar."
-                category="Acordo e Verdade"
-                url="https://clickpetroleoegas.com.br/anemus-wind-potencializando-a-revolucao-da-energia-limpa-no-mercado-livre-brasileiro/"
-              />
-              
-              <CaseCard
-                image="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
-                title="Rodoanel de SP"
-                description="Construção de Rodoanel de SP."
-                category="Acordo e Verdade"
-                url="https://www.mobilize.org.br/noticias/10669/rodoanel-de-sp-ficara-pronto-em-2018-ao-custo-de-r-26-bilhoes.html"
-              />
-              
-              <CaseCard
-                image="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
-                title="Rodoanel Norte - SP"
-                description="Construção do Rodoanel Norte de SP."
-                category="Acordo e Verdade"
-                url="https://www.terra.com.br/noticias/brasil/cidades/como-estao-as-obras-do-rodoanel-norte-apos-6-anos-de-paralisacao,d3266a86a2457c631fe117af28f6bf8b44neavcm.html"
-              />
-              
-              <CaseCard
                 image="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=80"
                 title="Aeroporto de Florianópolis - SC"
                 description="Protesto de trabalhadores bloqueia acesso ao canteiro de obras no aeroporto."
