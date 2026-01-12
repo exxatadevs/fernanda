@@ -2,7 +2,7 @@
 
 @layer utilities {
   .bg-custom-dark {
-    background-color: #09182b;
+    background-color: #aa0e0e;
   }
   .bg-diamond-red {
     background: linear-gradient(135deg, #AEAEB7 0%, #C5C5CC 100%);

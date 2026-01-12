@@ -37,7 +37,7 @@ export default function App() {
     setCurrentPage(page);
   };
 
-  if (currentPage === 'investigacao-peritos') {
+  if (currentPage === 'consciencia-situacional') {
     return (
       <>
         <InvestigacaoPeritos onMenuClick={() => setIsMenuOpen(true)} />
@@ -129,7 +129,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#09182b' }}>
+    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#aa0e0e' }}>
       <Header onMenuClick={() => setIsMenuOpen(true)} />
       <FullscreenMenu 
         isOpen={isMenuOpen} 

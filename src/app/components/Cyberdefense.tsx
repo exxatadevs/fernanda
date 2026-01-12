@@ -154,7 +154,7 @@ function CyberdefenseBackground() {
 
 export function Cyberdefense({ onMenuClick }: CyberdefenseProps) {
   return (
-    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#09182b' }}>
+    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#aa0e0e' }}>
       <Header onMenuClick={onMenuClick} />
       <CyberdefenseBackground />
       

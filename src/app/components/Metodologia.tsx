@@ -7,7 +7,7 @@ interface MetodologiaProps {
 
 export function Metodologia({ onMenuClick }: MetodologiaProps) {
   return (
-    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#09182b' }}>
+    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#aa0e0e' }}>
       <Header onMenuClick={onMenuClick} />
       
       {/* Hero Section */}
@@ -71,18 +71,18 @@ export function Metodologia({ onMenuClick }: MetodologiaProps) {
               style={{ transformStyle: 'preserve-3d' }}
             >
               <div 
-                className="absolute w-72 h-72 border border-[#09182b]/50"
+                className="absolute w-72 h-72 border border-[#aa0e0e]/50"
                 style={{ 
                   transform: 'rotateZ(45deg) rotateY(25deg) rotateX(25deg)',
-                  background: 'linear-gradient(135deg, #09182b 0%, #0a1f3d 100%)',
+                  background: 'linear-gradient(135deg, #aa0e0e 0%, #8a0c0c 100%)',
                   opacity: 0.7
                 }}
               />
               <div 
-                className="absolute w-64 h-64 border border-[#09182b]/40"
+                className="absolute w-64 h-64 border border-[#aa0e0e]/40"
                 style={{ 
                   transform: 'rotateZ(45deg) rotateY(-25deg) rotateX(-25deg) translateZ(-50px)',
-                  background: 'linear-gradient(135deg, #09182b 0%, #081429 100%)',
+                  background: 'linear-gradient(135deg, #aa0e0e 0%, #7a0a0a 100%)',
                   opacity: 0.5
                 }}
               />
@@ -234,9 +234,9 @@ export function Metodologia({ onMenuClick }: MetodologiaProps) {
               link="cyberdefense"
             />
             <ServiceCard
-              title="Inteligência Investigativa"
+              title="Consciência Situacional"
               description="Análise profunda de perfil profissional e ético de peritos judiciais. Identificação de conflitos de interesse, vínculos ocultos e análise crítica de produção técnica anterior."
-              link="investigacao-peritos"
+              link="consciencia-situacional"
             />
             <ServiceCard
               title="Acordo e Verdade"

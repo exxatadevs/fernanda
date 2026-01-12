@@ -107,7 +107,7 @@ function InvestigacaoBackground() {
 
 export function InvestigacaoPeritos({ onMenuClick }: InvestigacaoPeritosProps) {
   return (
-    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#09182b' }}>
+    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#aa0e0e' }}>
       <Header onMenuClick={onMenuClick} />
       <InvestigacaoBackground />
       
@@ -122,16 +122,15 @@ export function InvestigacaoPeritos({ onMenuClick }: InvestigacaoPeritosProps) {
               className="max-w-5xl"
             >
               <h1 className="text-5xl md:text-6xl lg:text-8xl uppercase mb-12 leading-tight">
-                Inteligência
+                Consciência
                 <br />
-                Investigativa
+                Situacional
               </h1>
               <p className="text-gray-300 text-xl md:text-2xl mb-8 max-w-3xl leading-relaxed">
-                Quando a verdade está oculta e os riscos são altos, nós encontramos as respostas que outros não conseguem.
+                Quando o contexto é fragmentado e os riscos são altos, nós reconstruímos o cenário completo — atores, interesses e movimentos — para apoiar decisões críticas.
               </p>
               <p className="text-white text-lg max-w-3xl leading-relaxed">
-                Operações de inteligência humana (HUMINT) combinadas com análise de fontes abertas (OSINT) 
-                para litígios complexos, arbitragens internacionais e crimes de colarinho branco.
+                Inteligência Humana aplicada para mapear stakeholders, identificar assimetrias de informação e antecipar pontos de pressão em litígios complexos, arbitragens internacionais e crimes de colarinho branco.
               </p>
             </motion.div>
           </div>
@@ -151,42 +150,41 @@ export function InvestigacaoPeritos({ onMenuClick }: InvestigacaoPeritosProps) {
                 Metodologia Tática. Alcance Global.
               </h2>
               <p className="text-gray-300 text-xl leading-relaxed max-w-4xl mx-auto">
-                Não somos limitados por conhecimento, expertise, idioma, conexões ou geografia. 
-                Conduzimos operações sofisticadas online e offline para assegurar evidências críticas 
-                impossíveis de obter por meios convencionais.
+                Não somos limitados por conhecimento, expertise, idioma, conexões ou geografia.
+                Conduzimos operações online e offline para identificar atores relevantes, compreender motivações e relações, e transformar sinais dispersos em entendimento situacional.
               </p>
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <FeatureCard
                 icon={<Search className="w-10 h-10" />}
-                title="Inteligência Humana (HUMINT)"
-                description="Operações complexas de engenharia social para capturar evidências em litígios internacionais de alto perfil, arbitragens e casos de crimes de colarinho branco."
+                title="Inteligência Humana"
+                description="Mapeamento de atores, interesses e vulnerabilidades do ambiente. Engenharia social aplicada e validação em campo para revelar o que não aparece em registros formais."
               />
               <FeatureCard
                 icon={<FileText className="w-10 h-10" />}
-                title="Fontes Abertas (OSINT)"
-                description="Capacidades avançadas de análise de fontes abertas combinadas com tecnologia de ponta para expor o oculto e o desconhecido."
+                title="Contexto e Evidências"
+                description="Correlacionamos informações públicas e privadas com análise crítica para construir narrativas verificáveis, com rastreabilidade e aderência ao objetivo do caso."
               />
               <FeatureCard
                 icon={<Scale className="w-10 h-10" />}
                 title="Suporte a Litígios"
-                description="Obtenção de informações críticas que parecem impossíveis de conseguir. Especialização em litígios de alto perfil, arbitragens e casos de crimes financeiros."
+                description="Identificação de stakeholders, pontos de influência e sequências prováveis de ação. Entregamos inteligência acionável para orientar estratégia e tomada de decisão."
               />
               <FeatureCard
                 icon={<History className="w-10 h-10" />}
                 title="Crimes de Colarinho Branco"
-                description="Líderes mundiais em expor corrupção, fraude, suborno, dissipação de ativos e outros crimes financeiros, mesmo quando não há rastro documental."
+                description="Capacidade de revelar corrupção, fraude, suborno, dissipação de ativos e outros crimes financeiros mesmo quando não há rastro documental claro — conectando atores, fatos e contexto."
               />
               <FeatureCard
                 icon={<UserCheck className="w-10 h-10" />}
-                title="Recuperação de Ativos"
-                description="Rastreamento e localização de ativos ocultos através de investigações profundas e operações de inteligência estratégica."
+                title="Risco e Exposição"
+                description="Levantamento de vínculos, posições e comportamento de stakeholders. Identificação de riscos reputacionais, operacionais e de compliance que impactam diretamente o caso."
               />
               <FeatureCard
                 icon={<ShieldCheck className="w-10 h-10" />}
                 title="Contrainteligência"
-                description="Identificação e neutralização de campanhas negativas, vazamentos de informação e ameaças à reputação corporativa."
+                description="Identificação e mitigação de campanhas negativas, vazamentos de informação e ameaças à reputação corporativa com leitura situacional e resposta proporcional."
               />
             </div>
           </div>
@@ -205,20 +203,19 @@ export function InvestigacaoPeritos({ onMenuClick }: InvestigacaoPeritosProps) {
                 Encontramos a Peça que Falta
               </h2>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Vencer casos complexos exige inteligência sofisticada. O sucesso do seu litígio depende 
-                de assegurar informações críticas que parecem impossíveis de obter.
+                Vencer casos complexos exige consciência situacional. O sucesso do seu litígio depende de compreender quem influencia o resultado, o que cada ator busca e onde estão as assimetrias de informação.
               </p>
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
-                Deixe conosco a tarefa de descobrir os fatos — não importa onde estejam escondidos.
+                Deixe conosco a tarefa de reconstruir o contexto — não importa onde as peças estejam dispersas.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white mt-2 flex-shrink-0" />
-                  <span className="text-gray-300">Evidências extensivas através de operações HUMINT suportadas por OSINT</span>
+                  <span className="text-gray-300">Evidências extensivas por meio de Inteligência Humana aplicada à realidade do caso</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white mt-2 flex-shrink-0" />
-                  <span className="text-gray-300">Operativos especializados com experiência em inteligência estratégica</span>
+                  <span className="text-gray-300">Operativos especializados com experiência em leitura situacional e inteligência estratégica</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-white mt-2 flex-shrink-0" />
@@ -266,9 +263,9 @@ export function InvestigacaoPeritos({ onMenuClick }: InvestigacaoPeritosProps) {
               <div className="border border-white/20 bg-black/40 backdrop-blur-sm p-12 flex flex-col justify-center h-full relative z-10">
                 <h3 className="text-3xl mb-6 uppercase text-white">Inteligência Criativa</h3>
               <p className="text-gray-400 leading-relaxed mb-8">
-                Nossa equipe é composta por ex-oficiais de inteligência, advogados e agentes com backgrounds diversos, 
-                culturas e idiomas variados. Como engenheiros sociais, criamos cenários únicos e complexos para capturar 
-                evidências em litígios internacionais de alto perfil.
+                Nossa equipe é composta por ex-oficiais de inteligência, advogados e agentes com backgrounds diversos,
+                culturas e idiomas variados. Como engenheiros sociais, desenhamos abordagens sob medida para mapear stakeholders,
+                validar hipóteses e capturar evidências em litígios internacionais de alto perfil.
               </p>
               <div className="border-l-4 border-white/40 pl-6 py-2">
                 <p className="text-white text-lg italic">
@@ -295,7 +292,7 @@ export function InvestigacaoPeritos({ onMenuClick }: InvestigacaoPeritosProps) {
               Impossível
             </h2>
             <p className="text-gray-300 text-xl mb-10 leading-relaxed">
-              Somos uma firma de inteligência que ajuda você a vencer quando ninguém mais consegue.
+              Somos uma firma de Inteligência Humana que ajuda você a vencer quando o contexto é o diferencial — com leitura situacional, mapeamento de atores e estratégia baseada em evidências.
             </p>
             <button 
               onClick={() => window.location.hash = 'contato'}

@@ -75,7 +75,7 @@ function ContatoBackground() {
 
 export function Contato({ onMenuClick }: ContatoProps) {
   return (
-    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#09182b' }}>
+    <div className="min-h-screen text-white overflow-x-hidden" style={{ backgroundColor: '#aa0e0e' }}>
       <Header onMenuClick={onMenuClick} />
       <ContatoBackground />
       

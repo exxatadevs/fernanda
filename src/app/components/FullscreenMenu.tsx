@@ -29,15 +29,16 @@ export function FullscreenMenu({ isOpen, onClose, onNavigate }: FullscreenMenuPr
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="fixed inset-0 z-[100] overflow-y-auto" style={{ backgroundColor: '#09182b' }}
+          className="fixed inset-0 z-[100] overflow-y-auto" style={{ backgroundColor: '#aa0e0e' }}
         >
           {/* Header do menu */}
           <div className="px-8 py-6 flex items-center justify-between border-b border-white/10">
             <div className="flex items-center gap-2">
-              <div className="flex flex-col">
-                <span className="text-white tracking-widest uppercase leading-tight">FERNANDA</span>
-                <span className="text-white/60 text-[10px] tracking-wider">HUMAN INTELLIGENCE, APPLIED.</span>
-              </div>
+              <img 
+                src="/logo_white_1.png" 
+                alt="FERNANDA - Human Intelligence, Applied" 
+                className="h-24 w-auto"
+              />
             </div>
             <button
               onClick={onClose}
@@ -82,8 +83,8 @@ export function FullscreenMenu({ isOpen, onClose, onNavigate }: FullscreenMenuPr
                           onClick={() => handleServiceClick('cyberdefense')}
                         />
                         <SubMenuItem 
-                          text="Inteligência Investigativa" 
-                          onClick={() => handleServiceClick('investigacao-peritos')}
+                          text="Consciência Situacional" 
+                          onClick={() => handleServiceClick('consciencia-situacional')}
                         />
                         <SubMenuItem 
                           text="Acordo e Verdade" 
